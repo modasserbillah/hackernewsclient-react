@@ -123,7 +123,7 @@ onSearchChange(event){
     return (
       <div className="page">
         <div className="interactions">
-
+        <h1> HackerNews API Client</h1>
             <Search
                   value={searchTerm}
                   onChange={this.onSearchChange}

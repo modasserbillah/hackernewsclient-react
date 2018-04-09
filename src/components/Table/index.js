@@ -4,6 +4,23 @@ import Button from '../Button';
 
 const Table = ({list, onDismiss}) =>
         <div className="table">
+              <div className="table-row">
+                <span style={largeColumn}>
+                  <b>Title</b>
+                </span>
+                <span style={midColumn}>
+                  <b>Author</b>
+                </span>
+                <span style={smallColumn}>
+                  <b>Comments</b>
+                </span>
+                <span style={smallColumn}>
+                  <b>Points</b>
+                </span>
+                <span style={smallColumn}>
+                  
+                </span>
+              </div>
               { list.map(item =>
 
                       <div key={item.objectID} className="table-row">
